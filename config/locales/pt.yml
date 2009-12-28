@@ -1,0 +1,11 @@
+pt: &pt
+  activerecord:
+    errors:
+      messages:
+        invalid_email: "não parece ser um e-mail válido"
+
+pt-BR:
+  <<: *pt
+
+pt-PT:
+  <<: *pt
