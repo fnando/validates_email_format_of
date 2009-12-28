@@ -15,7 +15,7 @@ module SimplesIdeias
       options.update(attr_names.pop) if attr_names.last.kind_of?(Hash)
 
       validates_each(attr_names, options) do |record, attr_name, value|
-        message = I18n.translate("activerecord.errors.messages.invalid_email", :default => "is not a valid e-mail address")
+        message = ::I18n.translate("activerecord.errors.messages.invalid_email", :default => "is not a valid e-mail address")
         record.errors.add(attr_name, message) unless value.to_s =~ EmailRegex
       end
     end
