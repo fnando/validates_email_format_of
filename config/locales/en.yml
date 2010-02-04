@@ -1,0 +1,8 @@
+en:
+  activerecord:
+    errors:
+      messages:
+        invalid_email: "is not a valid address"
+  errors:
+    messages:
+      invalid_email: "is not a valid address"

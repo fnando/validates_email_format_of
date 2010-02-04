@@ -3,6 +3,9 @@ pt: &pt
     errors:
       messages:
         invalid_email: "não parece ser um e-mail válido"
+  errors:
+    messages:
+      invalid_email: "não parece ser um e-mail válido"
 
 pt-BR:
   <<: *pt
