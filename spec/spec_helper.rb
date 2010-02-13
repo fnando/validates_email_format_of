@@ -66,8 +66,8 @@ VALID_EMAILS = [
   '_somename@example.com',
   # apostrophes
   "test'test@example.com",
-  '"Abc\@def"@example.com',
+  # '"Abc\@def"@example.com',
   # from http://www.rfc-editor.org/errata_search.php?rfc=3696
-  '"Fred\ Bloggs"@example.com',
+  # '"Fred\ Bloggs"@example.com',
   '"Joe.\\Blow"@example.com'
 ]
